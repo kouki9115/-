@@ -1,18 +1,29 @@
-<header>
-  <div class="containar clearfix">
-  <h1>topページ</h1>
-     <nav>
-       <%= image_tag 'kimetu-rengoku.jpg',:width => '100%', :height => '40' %>
-       <ul>
-         <li>Portfolio</li>
-         <li>Feature</li>
-         <li>Profile</li>
-         <li>Contact</li>
-       </ul>
+<header class="">
+     <nav class="navbar navbar-expand-lg navbar-dark bg-primary", style="width:50%;">
+        <div class="navbar-brand m-5"><%= image_tag 'logo.png', width: '40', height: '40' %></div>
+       <div><ul class="text-white d-flex">
+        <li class="m-4">Portfolio</li>
+        <li class="m-4">Feature</li>
+        <li class="m-4">Profile</li>
+        <li class="m-4">Contact</li>
+       </ul></div>
      </nav>
-  </div>
 </header>
 
 <main>
-  <%= image_tag 'kimetu-rengoku.jpg',:width => '100%', :height => '650' %>
+ <div class="p-3 mb-2 bg-dark text-white">.bg-dark</div>
+ <span class="badge badge-primary">Primary</span>
+ <div class="alert alert-primary" role="alert">primary</div>
+ <span class="badge badge-primary">Primary</span>
+
+
+  <div class=".bg-dark h-25"></div>
+    <%= image_tag 'logo.png', width: '100%', height: '40' %>
   </main>
+
+<div class="d-flex m-3 p-3">
+<div class="bg-dark text-white ">ponpon</div>
+<div class="bg-dark text-white ">ponpon</div>
+<div>tonton</div>
+<div>sonson</div>
+</div>
